@@ -1,7 +1,7 @@
 def quitt():
-    win.destroy() #to destroy the windo
+    win.destroy() 
 
-def read():   #to read the data from files
+def read():   
     u=e1.get()
     p=e2.get()
     file=open('demo.txt','r')
@@ -23,7 +23,7 @@ def read():   #to read the data from files
         l9=Label(loginwin,text=('login failed'))
         l9.place(x=5,y=10)
 
-def signup():   #to add a new data in file
+def signup():   
     u=e3.get()
     p=e4.get()
     rp=e5.get()
@@ -46,7 +46,7 @@ def signup():   #to add a new data in file
         l11.place(x=5,y=10)
        
 
-from tkinter import *   #here gui start
+from tkinter import *  
 win=Tk()
 win.title('pbookgui')
 win.geometry('500x500')

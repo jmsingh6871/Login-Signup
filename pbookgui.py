@@ -13,13 +13,13 @@ def read():
         ps=ps[0:lc]
         if u==un and p==ps:
             loginwin=Tk()
-            loginwin.title('loginwindow')
+            loginwin.title('Login Window')
             l8=Label(loginwin,text=('welcome {}'.format(e1.get())))
             l8.place(x=5,y=10)
             break
     else:
         loginwin=Tk()
-        loginwin.title('loginwindow')
+        loginwin.title('Login Window')
         l9=Label(loginwin,text=('login failed'))
         l9.place(x=5,y=10)
 
@@ -72,7 +72,7 @@ l6=Label(win,text='password')
 l6.place(x=2,y=230)
 e4=Entry(win,show='*')
 e4.place(x=90,y=230)
-l7=Label(win,text='Re-password')
+l7=Label(win,text='Reenter-password')
 l7.place(x=2,y=270)
 e5=Entry(win,show='*')
 e5.place(x=90,y=270)
